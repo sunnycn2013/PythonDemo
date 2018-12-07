@@ -28,7 +28,7 @@ def set_sys_time(year, month, day):
     # os.system('%s' % (sudoPassword))
 
     sudoPassword = '123'
-    command = str('sudo date %04d%02d%02d' % (year, month, day))
+    command = str('sudo date %04d%02d1222%02d' % (month, day,year))
     print(command)
     os.system('echo %s|sudo -S %s' % (sudoPassword, command))
 
