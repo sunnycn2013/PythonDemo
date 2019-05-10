@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69cac059-c4b4-4619-b773-2a1976da4ded" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/green.py" beforeDir="false" afterPath="$PROJECT_DIR$/green.py" afterDir="false" />
-    </list>
+    <list default="true" id="69cac059-c4b4-4619-b773-2a1976da4ded" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,16 +120,15 @@
       <option name="presentableId" value="Default" />
       <updated>1567135206117</updated>
       <workItem from="1567135211072" duration="5000" />
-      <workItem from="1567135235781" duration="2144000" />
+      <workItem from="1567135235781" duration="2286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2149000" />
+    <option name="totallyTimeSpent" value="2291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="44" width="1400" height="783" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
