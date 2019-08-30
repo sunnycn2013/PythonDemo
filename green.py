@@ -22,11 +22,15 @@ def commit():
 
 def set_sys_time(year, month, day):
     # os.system('date -s %04d%02d%02d' % (year, month, day))
+    # sudoPassword = '123'
+    # command = str('sudo date %04d%02d%02d' % (year, month, day))
+    # os.system('%s' % (command))
+    # os.system('%s' % (sudoPassword))
+
     sudoPassword = '123'
     command = str('sudo date %04d%02d%02d' % (year, month, day))
-    os.system('%s' % (command))
-    os.system('%s' % (sudoPassword))
-
+    print(command)
+    os.system('echo %s|sudo -S %s' % (sudoPassword, command))
 
 def trick_commit(year, month, day):
     set_sys_time(year, month, day)
