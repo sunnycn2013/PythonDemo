@@ -24,7 +24,7 @@ def set_sys_time(year, month, day):
     # os.system('date -s %04d%02d%02d' % (year, month, day))
     sudoPassword = '123'
     command = str('date %04d%02d%02d' % (year, month, day))
-    os.system('echo %s|sudo -S %s' % (sudoPassword, command))
+    os.system('sudo -S %s|echo %s' % (command,sudoPassword))
 
 
 def trick_commit(year, month, day):
@@ -40,5 +40,5 @@ def daily_commit(start_date, end_date):
 
 
 if __name__ == '__main__':
-    daily_commit(datetime.date(2018, 3, 31), datetime.date(2019, 8, 28))
+    daily_commit(datetime.date(2018, 3, 31), datetime.date(2018, 4, 1))
 
