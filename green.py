@@ -23,7 +23,7 @@ def commit():
 def set_sys_time(year, month, day):
     # os.system('date -s %04d%02d%02d' % (year, month, day))
     sudoPassword = '123'
-    command = ('date -s %04d%02d%02d' % (year, month, day))
+    command = ('date %04d%02d%02d' % (year, month, day))
     print(command)
     # os.system('echo %s|sudo -S %s' % (sudoPassword, command))
 
