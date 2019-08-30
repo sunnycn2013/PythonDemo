@@ -21,7 +21,7 @@ def commit():
 
 
 def set_sys_time(year, month, day):
-    print(year+month+day)
+    print(str(year)+'_'+str(month)+'_'+str(day))
     os.system('date -s %04d%02d%02d' % (year, month, day))
 
 
